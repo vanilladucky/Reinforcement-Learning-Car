@@ -1,4 +1,4 @@
-# Self learning car using NeuroEvolution of Augmenting Topologies
+# Self driving car using NeuroEvolution of Augmenting Topologies
 
 # Table of Content
 * Project
