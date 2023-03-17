@@ -4,6 +4,8 @@
 * Project
 * Algorithm used 
 * Files 
+* How to run - Mac OS
+* How to run - Window OS
 * Areas under progress
 
 # Project 
@@ -19,6 +21,16 @@
 #### "codes" folder contains all the codes. The main, functional code is in main.py while the other file contains the saving of the algorithm. However, this file is still under progress as I have yet to figure out a way to load the saved model. I will update the file as soon as I figure out a way how to.
 #### "images" folder contains all the images of the car and the different maps. You can insert in the maps in the main.py file to train the car on different maps. 
 #### "config.txt" file is where the parameters are stored for our NEAT algorithm. Please read the NEAT [documentation](https://neat-python.readthedocs.io/en/latest/) where they elaborate very clearly about the parameters. Apart from this documentation, the paper itself showcases different parameters in the algorithm. Please do take a look and hopefully altering them yourself could produce a better result. 
+
+# How to run - Mac OS
+#### Clone this repository into your local computer. 
+#### Make sure to have python3 installed. You can download python from its [official website](https://www.python.org/downloads/)
+#### Once you have cloned it, go into the cloned directory and in your terminal, type in `python3 codes/main.py`
+
+# How to run - Windows OS
+#### Clone this repository into your local computer. 
+#### Make sure to have python3 installed. You can download python from its [official website](https://www.python.org/downloads/)
+#### Once you have cloned it, go into the cloned directory and in your terminal, type in `python codes/main.py`
 
 # Areas under progress
 #### As I have mentioned, I still have yet to find a way to load the saved file so that I can resume training or testing with the trained mdoel. 
