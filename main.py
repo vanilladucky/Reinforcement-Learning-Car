@@ -22,13 +22,13 @@ BORDER_COLOR = (255, 255, 255, 255)
 
 pygame.init()
 screen = pygame.display.set_mode((screen_width, screen_height))
-game_map = pygame.image.load('images/medium_map.png').convert() 
+game_map = pygame.image.load('./medium_map.png').convert() 
 screen.blit(game_map, (0,0))
 pygame.display.set_caption('Self Driving Car')
 
 class Car:
     def __init__(self):
-        self.sprite = pygame.image.load('images/car.png').convert()
+        self.sprite = pygame.image.load('./car.png').convert()
         self.sprite = pygame.transform.scale(self.sprite, (car_size_x, car_size_y))
         self.rotated_sprite = self.sprite
 
